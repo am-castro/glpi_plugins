@@ -1,0 +1,54 @@
+{
+    "name": "glpi-plugin/responsibilityterms",
+    "description": "GLPI plugin for managing responsibility terms for equipment",
+    "type": "glpi-plugin",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/f13-tecnologia/responsibilityterms",
+    "support": {
+        "issues": "https://github.com/f13-tecnologia/responsibilityterms/issues",
+        "source": "https://github.com/f13-tecnologia/responsibilityterms"
+    },
+    "authors": [
+        {
+            "name": "F13 Tecnologia",
+            "homepage": "https://f13tecnologia.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "tecnickcom/tcpdf": "^6.10"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "suggest": {
+        "tecnickcom/tcpdf": "^6.6 - For advanced PDF generation",
+        "dompdf/dompdf": "^2.0 - Alternative PDF library"
+    },
+    "autoload": {
+        "psr-4": {
+            "GlpiPlugin\\ResponsibilityTerms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GlpiPlugin\\ResponsibilityTerms\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "scripts": {
+        "cs": "phpcs -p --standard=PSR12 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src",
+        "cs:fix": "phpcbf -p --standard=PSR12 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src",
+        "stan": "phpstan analyse --no-progress --memory-limit=512M"
+    }
+}

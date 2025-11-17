@@ -1,0 +1,49 @@
+<root>
+      <name>Responsibility Terms</name>
+      <key>responsibilityterms</key>
+      <state>stable</state>
+      <description>
+         <short>
+            <en>GLPI plugin for managing responsibility terms for equipment</en>
+            <pt_BR>Plugin GLPI para gerenciar termos de responsabilidade de equipamentos</pt_BR>
+         </short>
+         <long>
+            <en>Responsibility Terms allows you to create term templates, generate PDFs linked to users and their equipment (computers, phones, lines), and send them for digital signature.</en>
+            <pt_BR>O Responsibility Terms permite criar templates de termos, gerar PDFs vinculados a usuários e seus equipamentos (computadores, telefones, linhas) e enviá-los para assinatura digital.</pt_BR>
+         </long>
+      </description>
+      <homepage>https://github.com/f13-tecnologia/responsibilityterms</homepage>
+      <download>https://github.com/f13-tecnologia/responsibilityterms/releases</download>
+      <issues>https://github.com/f13-tecnologia/responsibilityterms/issues</issues>
+      <readme>https://raw.githubusercontent.com/f13-tecnologia/responsibilityterms/master/README.md</readme>
+      <authors>
+         <author>F13 Tecnologia</author>
+      </authors>
+      <versions>
+         <version>
+            <num>1.0.0</num>
+            <compatibility>~10.0.0</compatibility>
+         </version>
+      </versions>
+      <langs>
+         <lang>en_GB</lang>
+         <lang>pt_BR</lang>
+      </langs>
+      <license>GPL v2+</license>
+      <tags>
+         <en>
+            <tag>terms</tag>
+            <tag>responsibility</tag>
+            <tag>equipment</tag>
+            <tag>signature</tag>
+            <tag>pdf</tag>
+         </en>
+         <pt_BR>
+            <tag>termos</tag>
+            <tag>responsabilidade</tag>
+            <tag>equipamentos</tag>
+            <tag>assinatura</tag>
+            <tag>pdf</tag>
+         </pt_BR>
+      </tags>
+</root>
