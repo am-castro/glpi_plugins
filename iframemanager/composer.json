@@ -1,0 +1,29 @@
+{
+    "name": "glpi/iframemanager",
+    "description": "GLPI plugin for managing and displaying iframes",
+    "type": "glpi-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "glpi-project/tools": "^0.8"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "8.2.99"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "GlpiPlugin\\IframeManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Glpi\\Tools\\": "../../tools/src/"
+        }
+    }
+}

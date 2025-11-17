@@ -1,0 +1,47 @@
+<root>
+      <name>Iframe Manager</name>
+      <key>iframemanager</key>
+      <state>stable</state>
+      <description>
+         <short>
+            <en>GLPI plugin for managing and displaying iframes in the interface</en>
+            <pt_BR>Plugin GLPI para gerenciar e exibir iframes na interface</pt_BR>
+         </short>
+         <long>
+            <en>Iframe Manager allows you to create, manage and display iframes directly in GLPI. Features include user placeholder substitution, multiple viewing modes (list, viewer, dashboard), and permission control.</en>
+            <pt_BR>O Iframe Manager permite criar, gerenciar e exibir iframes diretamente no GLPI. Recursos incluem substituição de placeholders de usuário, múltiplos modos de visualização (lista, visualizador, dashboard) e controle de permissões.</pt_BR>
+         </long>
+      </description>
+      <homepage>https://github.com/pluginsGLPI/iframemanager</homepage>
+      <download>https://github.com/pluginsGLPI/iframemanager/releases</download>
+      <issues>https://github.com/pluginsGLPI/iframemanager/issues</issues>
+      <readme>https://raw.githubusercontent.com/pluginsGLPI/iframemanager/master/README.md</readme>
+      <authors>
+         <author>F13 Tecnologia, Antonio Marcos</author>
+      </authors>
+      <versions>
+         <version>
+            <num>1.0.0</num>
+            <compatibility>~11.0.0</compatibility>
+         </version>
+      </versions>
+      <langs>
+         <lang>en_GB</lang>
+         <lang>pt_BR</lang>
+      </langs>
+      <license>GPL v2+</license>
+      <tags>
+         <en>
+            <tag>iframe</tag>
+            <tag>embed</tag>
+            <tag>dashboard</tag>
+            <tag>viewer</tag>
+         </en>
+         <pt_BR>
+            <tag>iframe</tag>
+            <tag>incorporar</tag>
+            <tag>painel</tag>
+            <tag>visualizador</tag>
+         </pt_BR>
+      </tags>
+</root>

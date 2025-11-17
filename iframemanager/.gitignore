@@ -1,0 +1,6 @@
+dist/
+vendor/*
+!vendor/autoload.php
+!vendor/composer/
+*.min.*
+.gh_token
